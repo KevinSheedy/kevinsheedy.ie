@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carto>
+  <markers>
+    <marker name="MERRION SQUARE EAST" number="25" address="Merrion Square East" fullAddress="Merrion Square East  " lat="53.339434082062" lng="-6.2465479640829" open="1" bonus="0"/>
+    <marker name="MERRION SQUARE WEST" number="26" address="Merrion Square West" fullAddress="Merrion Square West  " lat="53.339764082063" lng="-6.251987964074" open="1" bonus="0"/>
+    <marker name="MOLESWORTH STREET" number="27" address="Molesworth Street" fullAddress="Molesworth Street  " lat="53.341288082061" lng="-6.2581169640631" open="1" bonus="0"/>
+    <marker name="MOUNTJOY SQUARE WEST" number="28" address="Mountjoy Square West" fullAddress="Mountjoy Square West  " lat="53.356299082021" lng="-6.2585859640512" open="1" bonus="0"/>
+    <marker name="ORMOND QUAY UPPER" number="29" address="Ormond Quay Upper" fullAddress="Ormond Quay Upper  " lat="53.346057082051" lng="-6.2680009640438" open="1" bonus="0"/>
+    <marker name="PARNELL SQUARE NORTH" number="30" address="Parnell Square North" fullAddress="Parnell Square North  " lat="53.353462082031" lng="-6.2653049640426" open="1" bonus="0"/>
+    <marker name="BOLTON STREET" number="3" address="Bolton Street" fullAddress="Bolton Street  " lat="53.351182082038" lng="-6.269858964037" open="1" bonus="0"/>
+    <marker name="CATHAL BRUGHA STREET" number="24" address="Cathal Brugha Street" fullAddress="Cathal Brugha Street  " lat="53.352149082033" lng="-6.2605329640512" open="1" bonus="0"/>
+    <marker name="PARNELL STREET" number="31" address="Parnell Street" fullAddress="Parnell Street  " lat="53.350929082038" lng="-6.2651249640448" open="1" bonus="0"/>
+    <marker name="PEARSE STREET" number="32" address="Pearse Street" fullAddress="Pearse Street  " lat="53.34430408205" lng="-6.2504269640731" open="1" bonus="0"/>
+    <marker name="GREEK STREET" number="4" address="Greek Street" fullAddress="Greek Street  " lat="53.346874082051" lng="-6.2729759640353" open="1" bonus="0"/>
+    <marker name="CHARLEMONT PLACE" number="5" address="Charlemont Street" fullAddress="Charlemont Street  " lat="53.33066208209" lng="-6.2601769640677" open="1" bonus="0"/>
+    <marker name="HIGH STREET" number="7" address="High Street" fullAddress="High Street  " lat="53.343565082061" lng="-6.2750709640344" open="1" bonus="0"/>
+    <marker name="PORTOBELLO HARBOUR" number="34" address="Portobello Harbour" fullAddress="Portobello Harbour  " lat="53.330362082092" lng="-6.26516296406" open="1" bonus="0"/>
+    <marker name="SMITHFIELD" number="35" address="Smithfield" fullAddress="Smithfield  " lat="53.347692082051" lng="-6.2782139640263" open="1" bonus="0"/>
+    <marker name="CUSTOM HOUSE QUAY" number="8" address="Custom House Quay" fullAddress="Custom House Quay  " lat="53.34788408204" lng="-6.2480479640742" open="1" bonus="0"/>
+    <marker name="ST. STEPHEN'S GREEN EAST" number="36" address="St. Stephen's Green East" fullAddress="St. Stephen's Green East  " lat="53.337824082069" lng="-6.256034964069" open="1" bonus="0"/>
+    <marker name="EXCHEQUER STREET" number="9" address="Exchequer Street" fullAddress="Exchequer Street  " lat="53.343034082058" lng="-6.2635779640531" open="1" bonus="0"/>
+    <marker name="DAME STREET" number="10" address="Dame Street" fullAddress="Dame Street  " lat="53.344007082057" lng="-6.2668019640472" open="1" bonus="0"/>
+    <marker name="EARLSFORT TERRACE" number="11" address="Earlsfort Terrace" fullAddress="Earlsfort Terrace  " lat="53.33401908208" lng="-6.2583709640681" open="1" bonus="0"/>
+    <marker name="ECCLES STREET" number="12" address="Eccles Street" fullAddress="Eccles Street  " lat="53.359246082017" lng="-6.2697789640312" open="1" bonus="0"/>
+    <marker name="FITZWILLIAM SQUARE WEST" number="13" address="Fitzwilliam Square West" fullAddress="Fitzwilliam Square West  " lat="53.336074082073" lng="-6.2528249640754" open="1" bonus="0"/>
+    <marker name="FOWNES STREET UPPER" number="14" address="Fownes Street Upper" fullAddress="Fownes Street Upper  " lat="53.344603082054" lng="-6.2633709640523" open="1" bonus="0"/>
+    <marker name="ST. STEPHEN'S GREEN SOUTH" number="37" address="St. Stephen's Green South" fullAddress="St. Stephen's Green South  " lat="53.337494082072" lng="-6.2619899640597" open="1" bonus="0"/>
+    <marker name="TALBOT STREET" number="38" address="Talbot Street" fullAddress="Talbot Street  " lat="53.350974082033" lng="-6.2529399640641" open="1" bonus="0"/>
+    <marker name="GEORGES QUAY" number="16" address="Georges Quay" fullAddress="Georges Quay  " lat="53.347508082042" lng="-6.2521919640679" open="1" bonus="0"/>
+    <marker name="WILTON TERRACE" number="39" address="Wilton Terrace" fullAddress="Wilton Terrace  " lat="53.332383082083" lng="-6.2527169640783" open="1" bonus="0"/>
+    <marker name="JERVIS STREET" number="40" address="Jervis Street" fullAddress="Jervis Street  " lat="53.348300082045" lng="-6.2666509640443" open="1" bonus="0"/>
+    <marker name="JAMES STREET EAST" number="20" address="James Street East" fullAddress="James Street East  " lat="53.33648508207" lng="-6.2481739640825" open="1" bonus="0"/>
+    <marker name="CUSTOM HOUSE" number="23" address="Custom House" fullAddress="Custom House  " lat="53.348279082041" lng="-6.2546619640634" open="1" bonus="0"/>
+    <marker name="LEINSTER STREET SOUTH" number="21" address="Leinster Street South" fullAddress="Leinster Street South  " lat="53.342180082057" lng="-6.2544849640682" open="1" bonus="0"/>
+    <marker name="TOWNSEND STREET" number="22" address="Townsend Street" fullAddress="Townsend Street  " lat="53.345922082047" lng="-6.2546139640652" open="1" bonus="0"/>
+    <marker name="BLESSINGTON STREET" number="2" address="Blessington Street" fullAddress="Blessington Street  " lat="53.356769082023" lng="-6.2681399640356" open="1" bonus="0"/>
+    <marker name="CHRISTCHURCH PLACE" number="6" address="Christchurch Place" fullAddress="Christchurch Place  " lat="53.343368082059" lng="-6.2701199640424" open="1" bonus="0"/>
+    <marker name="HERBERT PLACE" number="19" address="Herbert Place" fullAddress="Herbert Place  " lat="53.334432082075" lng="-6.2455749640882" open="1" bonus="0"/>
+    <marker name="CHATHAM STREET" number="1" address="Chatham Street" fullAddress="Chatham Street  " lat="53.340962082063" lng="-6.2622869640567" open="1" bonus="0"/>
+    <marker name="GRANTHAM STREET" number="18" address="Grantham Street" fullAddress="Grantham Street  " lat="53.334123082083" lng="-6.2654359640568" open="1" bonus="0"/>
+    <marker name="HARDWICKE STREET" number="15" address="Hardwicke Street" fullAddress="Hardwicke Street  " lat="53.355473082025" lng="-6.2644229640425" open="1" bonus="0"/>
+    <marker name="GOLDEN LANE" number="17" address="Golden Lane" fullAddress="Golden Lane  " lat="53.340803082065" lng="-6.2677319640481" open="1" bonus="0"/>
+    <marker name="PRINCES STREET / O'CONNELL STREET" number="33" address="Princes Street / O'Connell Street" fullAddress="Princes Street / O'Connell Street  " lat="53.349013082041" lng="-6.2603109640539" open="1" bonus="0"/>
+  </markers>
+  <arrondissements>
+    <arrondissement number="0" minLat="53.330362082092" minLng="-6.2782139640263" maxLat="53.359246082017" maxLng="-6.2455749640882"/>
+  </arrondissements>
+</carto>

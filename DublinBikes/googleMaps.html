@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script type="text/javascript">
+	function init() {
+		var latlng = new google.maps.LatLng(53.336549, -6.248088);
+		var myOptions = {
+			zoom: 15,
+			center: latlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		window.gMap = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	}
+
+	function showMarker(){
+		var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+		var myOptions = {
+			zoom: 4,
+			center: myLatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP,
+		}
+
+		var marker = new google.maps.Marker({
+			position: myLatlng, 
+			map: gMap, 
+			title:"Hello World!"
+		});
+	}
+
+	function success(position) // 'position' can be named anything
+	{
+		alert("Your latitude: " + position.coords.latitude + "longitude: "
+			+ position.coords.longitude);
+	}
+
+	function fail()
+	{
+		alert("failed to getCurrentPosition");
+	}
+
+	function alertLocation(){
+		navigator.geolocation.getCurrentPosition(success, fail);
+		// success callback, gets passed position object
+	}
+	
+	function putStationOnMap(map, station){
+		var myLatlng = new google.maps.LatLng(station.lat, station.long);
+		
+		var marker = new google.maps.Marker({
+			position: myLatlng, 
+			map: gMap, 
+			title: station.name
+		});
+	}
+	
+	function station(name, latitude, longitude, numBikes, numSpaces){
+		this.name = name;
+		this.lat  = latitude;
+		this.long = longitude;
+		this.numBikes  = numBikes;
+		this.numSpaces = numSpaces;
+	}
+	
+	function initStations(){
+		var stations = new Array();
+		stations[20 - 1] = new station("James Street East", 53.336549, -6.248088, 15, 5);
+		stations[25 - 1] = new station("Merrion Square East", 53.339157,-6.246833, 15, 5);
+		stations[36 - 1] = new station("St. Stephen's Green East", 53.337885,-6.256006, 15, 5);
+		
+		//53.339157,-6.246833
+		
+		putStationOnMap(gMap, stations[20 - 1]);
+		putStationOnMap(gMap, stations[25 - 1]);
+		putStationOnMap(gMap, stations[36 - 1]);
+	}
+
+</script>
+</head>
+<body onload="init();/*showMarker();initStations()*//*alertLocation()*/">
+  <div id="map_canvas" style="width:100%; height:100%"></div>
+</body>
+</html>
